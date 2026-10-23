@@ -19,8 +19,7 @@
     <sys:String x:Key="MainView.Navigation.About">À propos</sys:String>
     <sys:String x:Key="MainView.Navigation.Settings">Paramètres</sys:String>
     <sys:String x:Key="MainView.Navigation.Error.Title">Erreur de navigation</sys:String>
-    <sys:String x:Key="MainView.Navigation.Error.Message">Échec de la navigation vers la page désignée.
-{0}</sys:String>
+    <sys:String x:Key="MainView.Navigation.Error.Message">Échec de la navigation vers la page désignée.&#x0a;{0}</sys:String>
 
     <!-- Library Page -->
     <sys:String x:Key="LibraryPage.Search.PlaceholderText">Rechercher...</sys:String>
@@ -53,28 +52,20 @@
     <sys:String x:Key="LibraryPage.Options.DoubleClickLaunch.Header">Lancer par un double-clic</sys:String>
     <sys:String x:Key="LibraryPage.Options.DoubleClickLaunch.ToolTip">Basculer entre un simple ou un double-clic pour lancer les jeux</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.Header">Analyser le dossier</sys:String>
-    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ToolTip">Analyse le dossier sélectionné à la recherche de jeux
-Consultez le Wiki pour plus de détails sur le fonctionnement de cette fonctionnalité</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ToolTip">Analyse le dossier sélectionné à la recherche de jeux&#x0a;Consultez le Wiki pour plus de détails sur le fonctionnement de cette fonctionnalité</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.MissingStorageProvider.Title">Fournisseur de stockage manquant</sys:String>
-    <sys:String x:Key="LibraryPage.Options.ScanDirectory.MissingStorageProvider.Message">Le fournisseur de stockage n'est pas disponible.
-{0}</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.MissingStorageProvider.Message">Le fournisseur de stockage n'est pas disponible.&#x0a;{0}</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoXeniaInstalled.Title">Xenia n'est pas installé</sys:String>
-    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoXeniaInstalled.Message">Aucune version de Xenia n'est actuellement installée.
-Veuillez installer Xenia avant de continuer.</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoXeniaInstalled.Message">Aucune version de Xenia n'est actuellement installée.&#x0a;Veuillez installer Xenia avant de continuer.</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.XeniaSelectionError.Title">Erreur de sélection de Xenia</sys:String>
-    <sys:String x:Key="LibraryPage.Options.ScanDirectory.XeniaSelectionError.Message">Échec de la sélection de la version de Xenia.
-{0}</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.XeniaSelectionError.Message">Échec de la sélection de la version de Xenia.&#x0a;{0}</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.FolderPicker.Title">Sélectionner le dossier à analyser</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.Success.Title">Analyse terminée</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.Success.Message">{0} jeu ajouté(s) avec succès à votre bibliothèque.</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoGamesFound.Title">Analyse terminée</sys:String>
-    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoGamesFound.Message">Aucun nouveau jeu n'a été trouvé dans le dossier sélectionné.
-
-Le dossier ne contient peut-être pas de fichiers de jeu compatibles, ou les jeux sont déjà dans votre bibliothèque.</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoGamesFound.Message">Aucun nouveau jeu n'a été trouvé dans le dossier sélectionné.&#x0a;&#x0a;Le dossier ne contient peut-être pas de fichiers de jeu compatibles, ou les jeux sont déjà dans votre bibliothèque.</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.Error.Title">Échec de l'analyse</sys:String>
-    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Error.Message">Une erreur est survenue lors de l'analyse du dossier :
-
-{0}</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Error.Message">Une erreur est survenue lors de l'analyse du dossier :&#x0a;&#x0a;{0}</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanError.Title">Erreur d'analyse</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.Title">Analyser le dossier</sys:String>
     <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.Message">Sélectionnez la source à analyser :</sys:String>
@@ -90,9 +81,4 @@ Le dossier ne contient peut-être pas de fichiers de jeu compatibles, ou les jeu
     <sys:String x:Key="FolderScanProgressDialog.Status.Complete">Analyse terminée ! {0} jeu(x) trouvé(s)</sys:String>
     <sys:String x:Key="FolderScanProgressDialog.Status.Cancelled">Analyse annulée</sys:String>
     <sys:String x:Key="FolderScanProgressDialog.Status.Initializing">Initialisation...</sys:String>
-    <sys:String x:Key="FolderScanProgressDialog.Status.Error">Erreur : {0}</sys:String>
-    <sys:String x:Key="FolderScanProgressDialog.Statistics.Folders">Dossiers</sys:String>
-    <sys:String x:Key="FolderScanProgressDialog.Statistics.GamesFound">Jeux trouvés</sys:String>
-    <sys:String x:Key="FolderScanProgressDialog.Button.Cancel">Annuler</sys:String>
-    <sys:String x:Key="FolderScanProgressDialog.Button.Close">Fermer</sys:String>
 </ResourceDictionary>
