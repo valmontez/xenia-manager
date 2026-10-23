@@ -1,0 +1,98 @@
+<ResourceDictionary xmlns="https://github.com"
+                    xmlns:x="http://microsoft.com"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!-- App global -->
+    <sys:String x:Key="App.Title">Xenia Manager</sys:String>
+
+    <!-- Welcome Dialog -->
+    <sys:String x:Key="WelcomeDialog.Title">Bienvenue sur Xenia Manager</sys:String>
+    <sys:String x:Key="WelcomeDialog.Description">Veuillez sélectionner votre thème d'interface préféré :</sys:String>
+    <sys:String x:Key="WelcomeDialog.ContinueButton">Continuer</sys:String>
+
+    <!-- Main View -->
+    <sys:String x:Key="MainView.Navigation.OpenXenia">Ouvrir Xenia</sys:String>
+    <sys:String x:Key="MainView.Navigation.BigScreen">Plein écran</sys:String>
+    <sys:String x:Key="MainView.Navigation.BigScreen.ToolTip">Ouvrir le mode Plein écran</sys:String>
+    <sys:String x:Key="MainView.Navigation.Library">Bibliothèque de jeux</sys:String>
+    <sys:String x:Key="MainView.Navigation.XeniaSettings">Paramètres Xenia</sys:String>
+    <sys:String x:Key="MainView.Navigation.ManagePage">Gérer Xenia</sys:String>
+    <sys:String x:Key="MainView.Navigation.About">À propos</sys:String>
+    <sys:String x:Key="MainView.Navigation.Settings">Paramètres</sys:String>
+    <sys:String x:Key="MainView.Navigation.Error.Title">Erreur de navigation</sys:String>
+    <sys:String x:Key="MainView.Navigation.Error.Message">Échec de la navigation vers la page désignée.
+{0}</sys:String>
+
+    <!-- Library Page -->
+    <sys:String x:Key="LibraryPage.Search.PlaceholderText">Rechercher...</sys:String>
+    <sys:String x:Key="LibraryPage.Refresh.ToolTip">Recharger la bibliothèque de jeux</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.ToolTip">Trier les jeux</sys:String>
+    <sys:String x:Key="LibraryPage.ToggleView.ToolTip.ListView">Passer à l'affichage en liste</sys:String>
+    <sys:String x:Key="LibraryPage.ToggleView.ToolTip.GridView">Passer à l'affichage en grille</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.Direction">Ordre de tri</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.Title">Titre</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.Compatibility">Compatibilité</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.Playtime">Temps de jeu</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.XeniaVersion">Version de Xenia</sys:String>
+    <sys:String x:Key="LibraryPage.Sort.LastPlayed">Joué récemment</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditGridView.Header">Personnaliser la grille</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditGridView.ToolTip">Afficher/Masquer les informations supplémentaires sur les jaquettes</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditGridView.Title.Header">Titre du jeu</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditGridView.CompatibilityRating.Header">Indice de compatibilité</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditGridView.XeniaVersion.Header">Version de Xenia</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditGridView.XeniaVersion.ToolTip">Afficher l'icône de la version de Xenia pour chaque jeu</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.Header">Personnaliser la liste</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.ToolTip">Afficher/Masquer les colonnes dans la vue en liste</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.CompatibilityRating.Header">Indice de compatibilité</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.Playtime.Header">Temps de jeu</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.XeniaVersion.Header">Version de Xenia</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.XeniaVersion.ToolTip">Afficher l'icône de la version de Xenia pour chaque jeu</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.LastPlayed.Header">Joué récemment</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.Icon.Header">Icône du jeu</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.TitleId.Header">Title ID</sys:String>
+    <sys:String x:Key="LibraryPage.Options.EditListView.MediaId.Header">Media ID</sys:String>
+    <sys:String x:Key="LibraryPage.Options.DoubleClickLaunch.Header">Lancer par un double-clic</sys:String>
+    <sys:String x:Key="LibraryPage.Options.DoubleClickLaunch.ToolTip">Basculer entre un simple ou un double-clic pour lancer les jeux</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Header">Analyser le dossier</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ToolTip">Analyse le dossier sélectionné à la recherche de jeux
+Consultez le Wiki pour plus de détails sur le fonctionnement de cette fonctionnalité</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.MissingStorageProvider.Title">Fournisseur de stockage manquant</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.MissingStorageProvider.Message">Le fournisseur de stockage n'est pas disponible.
+{0}</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoXeniaInstalled.Title">Xenia n'est pas installé</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoXeniaInstalled.Message">Aucune version de Xenia n'est actuellement installée.
+Veuillez installer Xenia avant de continuer.</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.XeniaSelectionError.Title">Erreur de sélection de Xenia</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.XeniaSelectionError.Message">Échec de la sélection de la version de Xenia.
+{0}</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.FolderPicker.Title">Sélectionner le dossier à analyser</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Success.Title">Analyse terminée</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Success.Message">{0} jeu ajouté(s) avec succès à votre bibliothèque.</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoGamesFound.Title">Analyse terminée</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.NoGamesFound.Message">Aucun nouveau jeu n'a été trouvé dans le dossier sélectionné.
+
+Le dossier ne contient peut-être pas de fichiers de jeu compatibles, ou les jeux sont déjà dans votre bibliothèque.</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Error.Title">Échec de l'analyse</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.Error.Message">Une erreur est survenue lors de l'analyse du dossier :
+
+{0}</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanError.Title">Erreur d'analyse</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.Title">Analyser le dossier</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.Message">Sélectionnez la source à analyser :</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.GamesFolder">Analyser le dossier Games</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.CustomFolder">Analyser un dossier personnalisé</sys:String>
+    <sys:String x:Key="LibraryPage.Options.ScanDirectory.ScanChoice.Cancel">Annuler</sys:String>
+
+    <!-- Folder Scan Progress Dialog -->
+    <sys:String x:Key="FolderScanProgressDialog.Title">Analyse des jeux en cours</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Subtitle">Veuillez patienter pendant la recherche des fichiers de jeu</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Status.Starting">Démarrage de l'analyse...</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Status.Scanning">Analyse en cours : {0}</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Status.Complete">Analyse terminée ! {0} jeu(x) trouvé(s)</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Status.Cancelled">Analyse annulée</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Status.Initializing">Initialisation...</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Status.Error">Erreur : {0}</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Statistics.Folders">Dossiers</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Statistics.GamesFound">Jeux trouvés</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Button.Cancel">Annuler</sys:String>
+    <sys:String x:Key="FolderScanProgressDialog.Button.Close">Fermer</sys:String>
+</ResourceDictionary>
