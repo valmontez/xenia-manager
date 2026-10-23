@@ -81,4 +81,9 @@
     <sys:String x:Key="FolderScanProgressDialog.Status.Complete">Analyse terminée ! {0} jeu(x) trouvé(s)</sys:String>
     <sys:String x:Key="FolderScanProgressDialog.Status.Cancelled">Analyse annulée</sys:String>
     <sys:String x:Key="FolderScanProgressDialog.Status.Initializing">Initialisation...</sys:String>
+
+    <!-- Big Screen / Big Picture Mode Additional Lines -->
+    <sys:String x:Key="BigScreen.Exit">Quitter le mode Plein écran</sys:String>
+    <sys:String x:Key="BigScreen.LaunchGame">Lancer le jeu</sys:String>
+    <sys:String x:Key="BigScreen.NoGames">Aucun jeu trouvé dans la bibliothèque</sys:String>
 </ResourceDictionary>
