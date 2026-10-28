@@ -1495,5 +1495,5 @@
     <sys:String x:Key="GameFilesDialog.XexIcon.Success.Message">Icône enregistrée sous '{0}'.</sys:String>
     <sys:String x:Key="GameFilesDialog.XexIcon.Failed.Title">Échec de l'enregistrement de l'icône</sys:String>
     <sys:String x:Key="GameFilesDialog.XexIcon.Failed.Message">Échec de l'enregistrement de l'icône : {0}</sys:String>
-</ResourceDictionary>
+    </ResourceDictionary>
 
